@@ -93,13 +93,13 @@ streamlit run chatbot.py
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](![dashboard](https://github.com/user-attachments/assets/1b503daf-f267-45c2-b850-939cc8c6c0f0)
+![Dashboard]((https://github.com/user-attachments/assets/1b503daf-f267-45c2-b850-939cc8c6c0f0)
 
 ### Chatbot
-![Chatbot](![chatbot](https://github.com/user-attachments/assets/d557f001-158b-4179-984c-e710716d2400)
+![Chatbot]((https://github.com/user-attachments/assets/d557f001-158b-4179-984c-e710716d2400)
 
 ### ML Output
-![ML Output](![ml_output](https://github.com/user-attachments/assets/1da748a1-2358-44c1-ad5d-165023279938)
+![ML Output]((https://github.com/user-attachments/assets/1da748a1-2358-44c1-ad5d-165023279938)
 
 ---
 
