@@ -1,7 +1,7 @@
 
-# 🌦️ Real-Time Weather Prediction & PDF Chatbot App
+# 🌦️ Weather Simulation, Temperature Prediction & PDF Chatbot
 
-This is a full-stack data science project that integrates **real-time weather data simulation**, **temperature prediction using machine learning**, and a **PDF-based intelligent chatbot** built with modern NLP tools.
+An educational data-science project combining **simulated weather observations**, a machine-learning temperature predictor and a PDF-question-answering demo. Simulated weather readings are not live measured weather forecasts.
 
 ---
 
@@ -36,57 +36,25 @@ To develop an end-to-end real-time weather prediction dashboard with machine lea
 
 ---
 
-## 📂 Project Structure
+## 📦 Repository contents and current limitation
 
-```
-weather_dashboard/
-├── app.py                  # Streamlit dashboard
-├── chatbot.py              # PDF chatbot script
-├── generate_index.py       # Chunking & FAISS index creator
-├── model.joblib            # Trained ML model
-├── combined_text.txt       # Combined text from PDFs
-├── faiss_index.idx         # Vector index file
-├── chunks.pkl              # Pickled text chunks
-├── README.md               # Project documentation
-├── docs/                   # PDF resources
-│   ├── ml_guide.pdf
-│   ├── python_cheatsheet.pdf
-│   └── sql_cheatsheet.pdf
-├── screenshots/            # App screenshots
-│   ├── dashboard.png
-│   ├── chatbot.png
-│   └── ml_output.png
-```
+At the repository root, the application is stored as [`Imarticus_DS_Project_Arjun.zip`](./Imarticus_DS_Project_Arjun.zip), alongside this README. **The application source is not presently checked in as browseable individual files.** The original README previously showed a `weather_dashboard/` tree and commands as though that directory existed at repository root; it does not.
 
----
+### Inspect and run locally
 
-## 🚀 How to Run
+1. Download and extract the ZIP into a new folder.
+2. Inspect the extracted file tree for `app.py`, `chatbot.py`, `requirements.txt` and the model/vector-index assets described in the archive.
+3. Create and activate a Python virtual environment in the application directory.
+4. If the extracted archive includes `requirements.txt`, install it with `python -m pip install -r requirements.txt`. Otherwise inspect the actual imports and install the required packages.
+5. If the extracted archive has the indicated scripts, launch them from the directory containing those files:
 
-### 1. Clone this repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd weather_dashboard
+python -m streamlit run app.py
+# Or, in a separate terminal:
+python -m streamlit run chatbot.py
 ```
 
-### 2. Install required libraries
-```bash
-pip install -r requirements.txt
-```
-
-Or manually install:
-```bash
-pip install streamlit scikit-learn pandas numpy matplotlib joblib sentence-transformers faiss-cpu PyMuPDF transformers
-```
-
-### 3. Run the dashboard
-```bash
-streamlit run app.py
-```
-
-### 4. Run the chatbot
-```bash
-streamlit run chatbot.py
-```
+These commands are conditional on the archive structure and have **not** been independently executed in this cleanup. Future improvement: unpack the archive into normal tracked project files, provide a tested environment specification and add an end-to-end smoke test.
 
 ---
 
@@ -105,7 +73,7 @@ streamlit run chatbot.py
 ## 🙋‍♂️ Author
 
 **Arjun Kumar**  
-Aspiring Data Analyst | Python • SQL • ML • NLP  
+Python • SQL • Machine Learning • NLP  
 [LinkedIn Profile](https://www.linkedin.com/in/arjun-analytics)
 
 ---
