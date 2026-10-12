@@ -1,0 +1,12 @@
+
+--- Python Cheat Sheet ---
+Python is a high-level, interpreted programming language known for its simplicity and readability.
+It supports multiple programming paradigms and is widely used in data science, automation, web development, and more.
+
+--- SQL Cheat Sheet ---
+SQL (Structured Query Language) is used for managing data in relational databases.
+Key commands: SELECT, INSERT, UPDATE, DELETE, JOIN, GROUP BY, ORDER BY, WHERE.
+
+--- Machine Learning Guide ---
+Machine learning is a subset of AI focused on building systems that learn from data.
+Popular algorithms include Linear Regression, Decision Trees, k-NN, and Support Vector Machines.
