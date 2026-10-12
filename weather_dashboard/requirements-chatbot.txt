@@ -1,0 +1,4 @@
+-r requirements.txt
+sentence-transformers>=3,<6
+transformers>=4.46,<5
+faiss-cpu>=1.9,<2
